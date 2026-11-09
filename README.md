@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "rag-knowledge-loop": {
-      "source": "mahardikalgw/rag-knowledge-loop",
+      "source": "mahardikalgw/ruby-rag-knowledge-loop",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/rag-knowledge-loop.git
-ln -s "$PWD/rag-knowledge-loop" .claude/skills/rag-knowledge-loop
+git clone git@github.com:mahardikalgw/ruby-rag-knowledge-loop.git
+ln -s "$PWD/ruby-rag-knowledge-loop" .claude/skills/rag-knowledge-loop
 ```
 
 ## When to activate
@@ -40,10 +40,11 @@ ln -s "$PWD/rag-knowledge-loop" .claude/skills/rag-knowledge-loop
 ## What's inside
 
 ```
-rag-knowledge-loop/
+ruby-rag-knowledge-loop/
   SKILL.md
   assets/ai_fake.rb
   assets/local_embedder.rb
+  bin/check-skill
   references/guardrails.md
   references/retrieval.md
 ```
@@ -63,9 +64,9 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`inertia-test-harness`](https://github.com/mahardikalgw/inertia-test-harness) — minitest + inertia helpers, builder objects, and system tests that do not flake
-- [`scoped-authorization`](https://github.com/mahardikalgw/scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
-- [`indonesian-product-copy`](https://github.com/mahardikalgw/indonesian-product-copy) — Indonesian copy in two files, server-owned labels, honest placeholders
+- [`inertia-test-harness`](https://github.com/mahardikalgw/ruby-inertia-test-harness) — minitest + inertia helpers, builder objects, and system tests that do not flake
+- [`scoped-authorization`](https://github.com/mahardikalgw/ruby-scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
+- [`indonesian-product-copy`](https://github.com/mahardikalgw/ruby-indonesian-product-copy) — Indonesian copy in two files, server-owned labels, honest placeholders
 
 ## Licence
 
